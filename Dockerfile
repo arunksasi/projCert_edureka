@@ -2,8 +2,8 @@
 From  devopsedu/webapp
 # Installing required packages to run application 
 RUN apt-get update && \
- 	apt-get install apache2 && \
- 	apt-get install php 
+ 	apt-get install apache2 -y && \
+ 	apt-get install php -y  
 
 # Copy  Application Files 
 COPY ./website/  /var/www/html/
