@@ -5,7 +5,8 @@ RUN apt-get update && \
  	apt-get install apache2 -y && \
  	apt-get install php -y  
 
-# Copy  Application Files 
+# Copy  Application Files
+RUN rm /var/www/html/index.html 
 COPY ./website/  /var/www/html/
 # Expose port 80  application runs on thos port 
 EXPOSE  80 
