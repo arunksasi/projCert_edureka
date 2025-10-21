@@ -1,5 +1,5 @@
 # Base Image from
-From  devopsedu/webapp
+FROM  devopsedu/webapp
 # Installing required packages to run application 
 RUN apt-get update && \
  	apt-get install apache2 -y && \
