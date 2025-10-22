@@ -8,7 +8,7 @@
 function config($key = '')
 {
     $config = [
-        'name' => 'Arun Website Project ',
+        'name' => 'This is My Edureka Devops Project ',
         'nav_menu' => [
             '' => 'Home',
             'content/about-us.php' => 'About Us',
